@@ -11,7 +11,7 @@ A dynamic and user-friendly weather CLI that brings you real-time weather update
 
 ## Installation :computer:
 
-1. Clone the repository: `git clone https://github.com/your-username/weather-app.git`
+1. Clone the repository: `[git clone https://github.com/your-username/weather-app.git](https://github.com/Maatrika-P/Weather-Forecast-CLI.git)`
 2. Install dependencies: `pip install -r requirements.txt`
 
 
