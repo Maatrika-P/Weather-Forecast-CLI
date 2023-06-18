@@ -7,6 +7,7 @@ A dynamic and user-friendly weather CLI that brings you real-time weather update
 - Fetch weather data based on city names or user location
 - Display temperature and humidity information with color-coded formatting
 - Supports multiple cities with the same name, allowing the user to select the desired city
+- Appropriate error handling for the city names such as involvement of special characters, numbers or extra spaces.
 
 
 ## Installation :computer:
