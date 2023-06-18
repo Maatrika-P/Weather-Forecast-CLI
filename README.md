@@ -31,7 +31,7 @@ A dynamic and user-friendly weather CLI that brings you real-time weather update
 - AI assistance provided by GitHub Copilot.
 
 
-## Contributions :raising_hand:
+## Contributions and feedback are welcome! 🙌
 
 We welcome contributions to improve our project. To contribute, please follow these steps:
 
