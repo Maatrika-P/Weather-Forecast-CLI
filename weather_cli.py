@@ -1,6 +1,6 @@
 import requests
-from geopy.geocoders import Nominatim
 import re
+from geopy.geocoders import Bing
 import sys
 
 # ANSI escape sequences for text colors
@@ -29,11 +29,13 @@ def fetch_weather(latitude, longitude):
 
 
 def convert_location_to_coordinates(location_name):
-    geolocator = Nominatim(user_agent="weather_app")
+    # Bing Maps API key
+    api_key = 'L4PnwLvfGDpLMsGZ2UAr~5dAkq2y-ULZmwkmbIMNgTg~Alkp2Rbq6RCS3pvdlxGBfZ_mt2wZmTNTjdUu1KzUEqvodkrKOfwZTk7OilYZQe3j'
+    geolocator = Bing(api_key=api_key)
     location = geolocator.geocode(location_name, exactly_one=False)
 
     if location:
-        return [(loc.latitude, loc.longitude, f"{loc.address.split(',')[0]}, {loc.address.split(',')[-2].strip()}, {loc.address.split(',')[-1].strip()}") for loc in location]
+        return [(loc.latitude, loc.longitude, loc.address) for loc in location]
 
     return []
 
@@ -57,7 +59,7 @@ def get_selected_city(city_options, selection):
 
 def get_user_location():
     try:
-        geolocator = Nominatim(user_agent="weather_app")
+        geolocator = Bing(user_agent="weather_app")
         response = requests.get('https://ipinfo.io')
         data = response.json()
         location = geolocator.geocode(data['city'])
@@ -75,8 +77,8 @@ def main(city_names):
     if user_latitude is not None and user_longitude is not None:
         user_location = (user_latitude, user_longitude)
         city_names.insert(0, user_location)
-    else:
-        print(RED + "Failed to retrieve your location. Weather data will be provided only based on city names." + END_COLOR)
+   # else:
+       # print(RED + "Failed to retrieve your location. Weather data will be provided only based on city names." + END_COLOR)
 
     for city_name in city_names:
         # Remove extra spaces in between words
