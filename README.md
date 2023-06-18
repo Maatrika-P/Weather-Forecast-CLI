@@ -1,6 +1,6 @@
 # Weather Forecast CLI :sunny: :cloud: :umbrella:
 
-A simple weather app that provides current weather information for cities using geocoding and weather APIs.
+A dynamic and user-friendly weather CLI that brings you real-time weather updates from around the world. Stay informed about the latest temperature and humidity levels, ensuring you're always prepared for the elements. With colorful visual cues and interactive features, Weatherly provides an engaging weather experience like no other. Powered by Bing API, OpenWeatherMap, and enhanced with GitHub Copilot, Weatherly is your go-to companion for all things weather. Let's embark on a meteorological adventure together! 🌍🌤️🌡️💦
 
 ## Features :sparkles:
 
@@ -17,9 +17,9 @@ A simple weather app that provides current weather information for cities using 
 
 ## Usage :sun_behind_small_cloud:
 
-1. Run the app: `python weather_app.py city1 city2 city3`
+1. Run the cli: `python weather_cli.py city1 city2 city3`
    - Replace `city1`, `city2`, etc., with the names of the cities you want to get weather data for.
-   - Example: `python weather_app.py London New York Sydney`
+   - Example: `python weather_cli.py London New York Sydney`
 
 2. Alternatively, run the app without command line arguments:
    - Enter city names separated by commas when prompted.
@@ -33,6 +33,12 @@ A simple weather app that provides current weather information for cities using 
 
 ## Contributions :raising_hand:
 
-Contributions are welcome! Please feel free to open issues and submit pull requests.
+We welcome contributions to improve our project. To contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
 
 
