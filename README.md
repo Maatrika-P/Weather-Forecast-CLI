@@ -22,7 +22,7 @@ A dynamic and user-friendly weather CLI that brings you real-time weather update
    - Replace `city1`, `city2`, etc., with the names of the cities you want to get weather data for.
    - Example: `python weather_cli.py London New York Sydney`
 
-2. Alternatively, run the app without command line arguments:
+2. Alternatively, run the cli without command line arguments:
    - Enter city names separated by commas when prompted.
 
 
