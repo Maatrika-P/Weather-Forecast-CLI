@@ -29,7 +29,7 @@ A dynamic and user-friendly weather CLI that brings you real-time weather update
 ## Credits :clap:
 
 - Powered by Bing API for geocoding and OpenWeatherMap API for weather data.
-- AI assistance provided by GitHub Copilot.
+- AI assistance provided by GitHub Copilot!
 
 
 ## Contributions and feedback are welcome! 🙌
