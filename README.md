@@ -1,6 +1,6 @@
 # Weather Forecast CLI :sunny: :cloud: :umbrella:
 
-A dynamic and user-friendly weather CLI that brings you real-time weather updates from around the world. Stay informed about the latest temperature and humidity levels, ensuring you're always prepared for the elements. With colorful visual cues and interactive features, Weatherly provides an engaging weather experience like no other. Powered by Bing API, OpenWeatherMap, and enhanced with GitHub Copilot, Weatherly is your go-to companion for all things weather. Let's embark on a meteorological adventure together! 🌍🌤️🌡️💦
+A dynamic and user-friendly weather CLI that brings you real-time weather updates from around the world. Stay informed about the latest temperature and humidity levels, ensuring you're always prepared for the elements. With colorful visual cues and interactive features, Weatherly provides an engaging weather experience like no other. Powered by Bing API, OpenWeatherMap, and enhanced with GitHub Copilot, Weatherly is your go-to companion for all things weather. Let's embark on a meteorological adventure together!! 🌍🌤️🌡️💦
 
 ## Features :sparkles:
 
